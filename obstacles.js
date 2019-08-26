@@ -85,15 +85,3 @@ const obstacles = [
   { x: 668, y: 3727, key: 'vertical-block1' },
   { x: 668, y: 3759, key: 'vertical-block1' },
 ];
-
-const loadObstacles = scene => {
-  const group = scene.physics.add.staticGroup();
-  obstacles.forEach(obstacle =>
-    group.create(obstacle.x, obstacle.y, obstacle.key)
-  );
-  scene.obstacles = group;
-};
-
-const applyObstacles = scene => {
-  scene.loadObstacles = () => loadObstacles(scene);
-};

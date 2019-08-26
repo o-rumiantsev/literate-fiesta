@@ -25,16 +25,3 @@ const assets = {
     }
   ]
 };
-
-const loadAssets = scene => {
-  const types = Reflect.ownKeys(assets);
-  types.forEach(type =>
-    assets[type].forEach(asset => scene.load[type](
-      asset.key,
-      asset.path,
-      asset.frames
-    ))
-  );
-};
-
-const applyAssets = scene => scene.loadAssets = () => loadAssets(scene);
