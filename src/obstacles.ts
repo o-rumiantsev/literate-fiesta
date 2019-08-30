@@ -74,6 +74,13 @@ export default [
   // Level1 Room3
   //
   { x: 927, y: 3680, key: 'block1' },
+  { x: 960, y: 3680, key: 'block1' },
+  { x: 991, y: 3680, key: 'block1' },
+  { x: 1024, y: 3680, key: 'block1' },
+  { x: 1055, y: 3680, key: 'block1' },
+  { x: 1248, y: 3680, key: 'block1' },
+  { x: 1280, y: 3680, key: 'block1' },
+  { x: 1297, y: 3680, key: 'block1' },
 
   // Level0 Room1
   //
