@@ -82,6 +82,11 @@ export default [
   { x: 1280, y: 3680, key: 'block1' },
   { x: 1297, y: 3680, key: 'block1' },
 
+  { x: 1152, y: 3616, key: 'block1' },
+  { x: 1184, y: 3616, key: 'block1' },
+  { x: 1216, y: 3616, key: 'block1' },
+  { x: 1248, y: 3616, key: 'block1' },
+
   // Level0 Room1
   //
   { x: 516, y: 3696, key: 'vertical-block1' },
@@ -142,7 +147,5 @@ export default [
   { x: 1160, y: 3690, key: 'stair'},
   { x: 1207, y: 3676, key: 'stair'},
   { x: 1192, y: 3676, key: 'stair'},
-
-
 
 ];
