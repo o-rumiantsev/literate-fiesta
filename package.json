@@ -1,0 +1,28 @@
+{
+  "name": "literate-fiesta",
+  "version": "0.1.0",
+  "description": "Simple platformer game",
+  "author": "o-rumiantsev",
+  "homepage": "https://github.com/o-rumiantsev/literate-fiesta#readme",
+  "bugs": "https://github.com/o-rumiantsev/literate-fiesta/issues",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/o-rumiantsev/literate-fiesta.git"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack --watch & live-server --port=8080"
+  },
+  "dependencies": {
+    "phaser": "^3.19.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.6.2",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
+  }
+}
