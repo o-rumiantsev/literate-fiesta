@@ -122,5 +122,20 @@ export default [
   { x: 1276, y: 3791, key: 'vertical-block1' },
   { x: 1276, y: 3825, key: 'vertical-block1' },
 
-  { x: 990, y: 3775, key: 'block1' },
+  // vadyk
+  { x: 992, y: 3775, key: 'block1'},
+  { x: 1028, y: 3774, key: 'block1'},
+  { x: 1058, y: 3774, key: 'block1'},
+  { x: 1090, y: 3774, key: 'block1'},
+  { x: 1120, y: 3775, key: 'block1'},
+  { x: 1032, y: 3755, key: 'stair'},
+  { x: 1065, y: 3738, key: 'stair'},
+  { x: 1097, y: 3723, key: 'stair'},
+  { x: 1129, y: 3707, key: 'stair'},
+  { x: 1160, y: 3690, key: 'stair'},
+  { x: 1207, y: 3676, key: 'stair'},
+  { x: 1192, y: 3676, key: 'stair'},
+
+
+
 ];
