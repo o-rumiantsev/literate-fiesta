@@ -131,10 +131,10 @@ export default [
 
   // vadyk
   { x: 992, y: 3775, key: 'block1'},
-  { x: 1028, y: 3774, key: 'block1'},
-  { x: 1058, y: 3774, key: 'block1'},
-  { x: 1090, y: 3774, key: 'block1'},
-  { x: 1120, y: 3775, key: 'block1'},
+  { x: 1023, y: 3776, key: 'block1'},
+  { x: 1055, y: 3776, key: 'block1'},
+  { x: 1097, y: 3776, key: 'block1'},
+  { x: 1118, y: 3776, key: 'block1'},
   { x: 1032, y: 3755, key: 'stair'},
   { x: 1065, y: 3738, key: 'stair'},
   { x: 1097, y: 3723, key: 'stair'},
