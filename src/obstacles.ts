@@ -74,6 +74,14 @@ export default [
   // Level1 Room3
   //
   { x: 927, y: 3680, key: 'block1' },
+  { x: 960, y: 3680, key: 'block1' },
+  { x: 991, y: 3680, key: 'block1' },
+  { x: 1024, y: 3680, key: 'block1' },
+  { x: 1055, y: 3680, key: 'block1' },
+  { x: 1248, y: 3680, key: 'block1' },
+  { x: 1280, y: 3680, key: 'block1' },
+  { x: 1297, y: 3680, key: 'block1' },
+
 
   // Level0 Room1
   //
@@ -135,6 +143,23 @@ export default [
   { x: 1160, y: 3690, key: 'stair'},
   { x: 1207, y: 3676, key: 'stair'},
   { x: 1192, y: 3676, key: 'stair'},
+  { x: 1390, y: 3679, key: 'block1'},
+  { x: 1408, y: 3680, key: 'block1'},
+  { x: 1439, y: 3680, key: 'block1'},
+  { x: 1470, y: 3680, key: 'block1'},
+  { x: 1503, y: 3680, key: 'block1'},
+  { x: 1535, y: 3680, key: 'block1'},
+  { x: 1567, y: 3680, key: 'block1'},
+  { x: 1599, y: 3680, key: 'block1'},
+  { x: 1631, y: 3680, key: 'block1'},
+  { x: 1664, y: 3680, key: 'block1'},
+  { x: 1695, y: 3680, key: 'block1'},
+  { x: 1726, y: 3680, key: 'block1'},
+  { x: 1758, y: 3680, key: 'block1'},
+  { x: 1647, y: 3660, key: 'vase1'},
+  { x: 1584, y: 3660, key: 'vase1'},
+  { x: 1711, y: 3660, key: 'vase1'},
+  { x: 1744, y: 3620, key: 'platform3'},
 
 
 
