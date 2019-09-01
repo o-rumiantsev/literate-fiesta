@@ -1,0 +1,9 @@
+{
+    "key": "man",
+    "scale": 0.45,
+    "start": {
+        "frame": 18,
+        "checkPoint": 5
+    },
+    "collideWorldBounds": true
+}
