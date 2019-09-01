@@ -1,8 +1,10 @@
-import assets, { Asset } from './assets';
-import obstacles, { Obstacle } from './obstacles';
-import levels from './levels';
-import checkPoints from './check-points';
-import playerConfig from './player-config';
+import { Asset, Obstacle } from './types';
+
+import assets from './config/assets.json';
+import obstacles from './config/obstacles.json';
+import playerConfig from './config/player-config.json';
+import checkPoints from './config/check-points.json';
+import levels from './config/levels.json';
 
 export default class GameScene extends Phaser.Scene {
     private bounds = {
@@ -143,13 +145,13 @@ export default class GameScene extends Phaser.Scene {
         }
 
         if (this.cursors.up.isDown && this.player.body.touching.down) {
-            this.player.setVelocityY(-250);
+            this.player.setVelocityY(-300);
         }
     }
 
     processReset(): void {
         if (this.input.keyboard.checkDown(this.resetKey, 1000)) {
-            this.toCheckPoint(0);
+            this.toCheckPoint(playerConfig.start.checkPoint);
         }
     }
 
